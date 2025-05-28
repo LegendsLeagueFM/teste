@@ -1,0 +1,152 @@
+/* General Body and Typography */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 900px; /* Max width for better readability on large screens */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 { /* Main Law Title, e.g., LEI Nº 14.133... */
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+/* Collapsible Section Headers */
+.title-header,
+.chapter-header,
+.article-header {
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #e7f0f7; /* Light blue background for headers */
+    border-left: 4px solid #3498db; /* Blue accent border */
+    transition: background-color 0.3s ease;
+}
+
+.title-header:hover,
+.chapter-header:hover,
+.article-header:hover {
+    background-color: #d0e0ee; /* Slightly darker on hover */
+}
+
+.title-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #d6eaf8; /* A bit distinct for titles */
+    border-left-color: #2980b9;
+}
+
+.chapter-header {
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #e0e9f0;
+    border-left-color: #5dade2;
+    margin-left: 20px; /* Indent chapters slightly */
+}
+
+.article-header {
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: #ebf0f5;
+    border-left-color: #85c1e9;
+    margin-left: 40px; /* Indent articles slightly more */
+}
+
+/* Expansion Indicators (+/-) */
+.title-header::before,
+.chapter-header::before,
+.article-header::before {
+    content: '+ ';
+    font-weight: bold;
+    margin-right: 8px;
+    color: #2980b9;
+}
+
+.title-header.expanded::before,
+.chapter-header.expanded::before,
+.article-header.expanded::before {
+    content: '- ';
+    color: #c0392b;
+}
+
+/* Content Areas Styling */
+.lei-content,
+.title-content,
+.chapter-content,
+.article-children {
+    padding-left: 20px; /* General indentation for content under a header */
+    border-left: 1px solid #eee; /* Subtle line to show scope */
+}
+
+/* Indentation for specific law item types */
+.title-item { margin-bottom: 15px; }
+.chapter-item { margin-bottom: 10px; }
+.article-item { margin-bottom: 8px; }
+
+.article-text { /* The caput of an article */
+    padding: 8px 0;
+    margin-left: 40px; /* Align with article header's indentation */
+    font-style: italic; /* Optional: distinguish caput */
+}
+
+.inciso-item,
+.paragrafo-item,
+.alinea-item {
+    margin-left: 60px; /* Deepest indentation for these items */
+    padding: 4px 0;
+    color: #444; /* Slightly lighter text for sub-items */
+}
+
+.inciso-item p,
+.paragrafo-item p,
+.alinea-item p {
+    margin: 0; /* Remove default paragraph margins within these items for tighter spacing */
+}
+
+/* Tooltip Styling */
+.ref-tooltip-active { /* Using the class from script.js */
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 400px; /* Max width for the tooltip */
+    z-index: 1000; /* Ensure it's on top */
+    font-size: 0.9em;
+    line-height: 1.4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.ref-tooltip-active br { /* Ensure line breaks in tooltip are rendered */
+    content: " ";
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+
+/* Cross-Reference Spans */
+.cross-ref {
+    color: #2980b9; /* Blue color for links */
+    text-decoration: underline;
+    cursor: help; /* Indicates more information is available */
+    transition: color 0.3s ease;
+}
+
+.cross-ref:hover {
+    color: #1f618d; /* Darker blue on hover */
+}
+
+/* General container for each item - useful for spacing if needed */
+.lei-item, .title-item, .chapter-item, .article-item, 
+.inciso-item, .paragrafo-item, .alinea-item {
+    /* Add any overall spacing or borders for items if desired */
+    /* For example: border-bottom: 1px dotted #ccc; */
+    /* padding-bottom: 5px; */
+}

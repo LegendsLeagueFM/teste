@@ -1,0 +1,12 @@
+[
+    {
+        "source_id": "art1§1",
+        "source_text": "art. 178 desta Lei.",
+        "target_id": "art178"
+    },
+    {
+        "source_id": "art2punico",
+        "source_text": "Referencia ao Art. 1 para teste.",
+        "target_id": "art1"
+    }
+]
