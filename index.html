@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section class="question-section">
+        <h2>Questão aleatória – MPGO</h2>
+        <p class="question-description">Baseada em concursos recentes de Ministérios Públicos estaduais.</p>
+        <div class="question-card" id="mpgo-question">
+            <div class="question-card__header">
+                <span class="question-meta" data-question-meta>Carregando questões recentes...</span>
+                <button class="question-refresh" type="button" data-new-question>Gerar outra questão</button>
+            </div>
+            <div class="question-text" data-question-text aria-live="polite">Carregando questão...</div>
+            <div class="question-options" data-question-options></div>
+            <div class="question-feedback" data-question-feedback aria-live="polite"></div>
+        </div>
+    </section>
     <div id="LEI14133" class="lei-item">
 <h1>LEI Nº 14.133, DE 1º DE ABRIL DE 2021</h1>
 <div class="lei-content"><div id="tituloI" class="titulo-item">
@@ -68,5 +81,6 @@
 </div>
 
     <script src="script.js"></script>
+    <script src="questions.js"></script>
 </body>
 </html>
