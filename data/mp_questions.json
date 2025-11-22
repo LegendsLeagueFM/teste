@@ -1,0 +1,87 @@
+[
+  {
+    "id": "mpgo-2023-01",
+    "exam": "MPGO - Promotor de Justiça Substituto",
+    "bank": "UFG",
+    "state": "GO",
+    "year": 2023,
+    "theme": "Lei 14.133/2021",
+    "question": "Na Nova Lei de Licitações, como a Administração deve aplicar os princípios previstos no art. 2º em suas contratações?",
+    "options": [
+      "Apenas quando houver previsão expressa em edital.",
+      "Preferencialmente, mas sem obrigação de justificativa.",
+      "Sempre que possível, promovendo sua efetiva aplicação aos processos de licitação e contratos.",
+      "Somente para contratos de obras e serviços de engenharia."],
+    "answer": 2,
+    "reference": "Lei 14.133/2021, art. 2º, parágrafo único.",
+    "comment": "O parágrafo único determina que a Administração zela pelos princípios do artigo e deve promover, sempre que possível, sua efetiva aplicação em licitações e contratos."
+  },
+  {
+    "id": "mppr-2022-02",
+    "exam": "MPPR - Promotor de Justiça",
+    "bank": "Fundação UVV",
+    "state": "PR",
+    "year": 2022,
+    "theme": "Dispensa de licitação",
+    "question": "Nos termos da Lei 14.133/2021, em qual situação é dispensável a licitação?",
+    "options": [
+      "Contratação de profissional do setor artístico diretamente pela Administração, sem intermediários, desde que consagrado pela crítica.",
+      "Contratação de bens e serviços comuns de pequeno valor independentemente de limite.",
+      "Contratação de obras de engenharia de grande vulto.",
+      "Contratação de serviços de publicidade institucional."],
+    "answer": 0,
+    "reference": "Lei 14.133/2021, art. 74, III.",
+    "comment": "A Lei 14.133/2021 admite dispensa para contratação direta de artista consagrado, hipótese muito cobrada em concursos do MP." 
+  },
+  {
+    "id": "mpmg-2021-03",
+    "exam": "MPMG - Promotor de Justiça",
+    "bank": "Fumarc",
+    "state": "MG",
+    "year": 2021,
+    "theme": "Planejamento da contratação",
+    "question": "Qual documento consolida o planejamento das contratações segundo a Lei 14.133/2021?",
+    "options": [
+      "Plano Anual de Licitações.",
+      "Estudo Técnico Preliminar.",
+      "Mapa de Riscos.",
+      "Projeto Básico."],
+    "answer": 1,
+    "reference": "Lei 14.133/2021, art. 18.",
+    "comment": "O estudo técnico preliminar reúne as informações para a contratação e integra o planejamento exigido pela lei." 
+  },
+  {
+    "id": "mpba-2023-04",
+    "exam": "MPBA - Promotor de Justiça Substituto",
+    "bank": "FGV",
+    "state": "BA",
+    "year": 2023,
+    "theme": "Gestão e fiscalização contratual",
+    "question": "Na gestão contratual prevista na Lei 14.133/2021, quem responde diretamente pela execução do contrato perante a Administração?",
+    "options": [
+      "O gestor do contrato.",
+      "O fiscal do contrato.",
+      "O representante do contratado.",
+      "O pregoeiro."],
+    "answer": 2,
+    "reference": "Lei 14.133/2021, art. 117, §1º.",
+    "comment": "O representante do contratado é responsável perante a Administração pela execução contratual e deve manter contato com gestor e fiscal." 
+  },
+  {
+    "id": "mpgo-2024-05",
+    "exam": "MPGO - Promotor de Justiça Substituto",
+    "bank": "UEG",
+    "state": "GO",
+    "year": 2024,
+    "theme": "Habilitação e julgamento",
+    "question": "Na fase de julgamento, qual critério estabelece a Lei 14.133/2021 como modalidade padrão quando o objeto puder ser definido objetivamente?",
+    "options": [
+      "Maior desconto.",
+      "Menor preço.",
+      "Melhor técnica.",
+      "Maior retorno econômico."],
+    "answer": 1,
+    "reference": "Lei 14.133/2021, art. 33, I.",
+    "comment": "O critério de menor preço é a regra para bens e serviços com definição objetiva, sendo bastante cobrado em provas do MPGO." 
+  }
+]
